@@ -18,7 +18,7 @@ shell 相当于翻译器，其可以将计算机上的操作或用户输入的�
 Shell命令的分类
 shell 命令可分为如下三类：
 
-内建函数(built-in function)：shell 自带的功能；
-可执行文件(executable file)：保存在 shell 之外的脚本，提供了额外的功能；
-别名(alias)：给某个命令的简称。
+- 内建函数(built-in function)：shell 自带的功能；
+- 可执行文件(executable file)：保存在 shell 之外的脚本，提供了额外的功能；
+- 别名(alias)：给某个命令的简称。
 可以使用 type 命令查看 shell 命令的类型，如果是内建命令会显示 xx is a shell builtin，如果是可执行文件会显示该命令的可执行文件位置，如果是别名则会显示 xx is aliased to xx。
